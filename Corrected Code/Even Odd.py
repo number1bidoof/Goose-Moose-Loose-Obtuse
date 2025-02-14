@@ -1,5 +1,6 @@
-votingage = int(input("What is your age"))
-if (votingage >= 18):
-    print('You can vote now')
+numeral_Value = int(input("What is your age: "))
+
+if(numeral_Value % 2 == 0):
+    print("Your number is even")
 else:
-    print("Sorry, you cannot vote :|")
+    print("Your number is odd")
