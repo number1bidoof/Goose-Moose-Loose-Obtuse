@@ -1,4 +1,4 @@
-let VotingAge = document.getElementById("VotingAge")
+let VotingAge = Number(prompt("Please enter your age"))
 
 if (VotingAge => 18) {
     console.log("You can vote now")

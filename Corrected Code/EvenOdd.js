@@ -1,4 +1,5 @@
-let NumeralValue = document.getElementById("numeralValue")
+let NumeralValue = prompt("Please enter a number")
+NumeralValue = Number(NumeralValue)
 
 if (NumeralValue % 2 == 0){
     console.log("This number is Even")
